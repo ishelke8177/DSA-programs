@@ -1,0 +1,19 @@
+	
+	-> internal sort in c++ stl takes : O(log(N)) SC
+
+	-> Time Complexity
+				O(1)     = Best
+				O(logN)  = Good
+				O(N)     = Fair
+				O(NlogN) = Bad
+				O(N!) , O(c^N) , O(N^c) = Worst
+
+	-> K and smallest/largest -> Heap (kth largest : Min Heap & kth Smallest : Max Heap)
+
+		priority_queue<int> maxheap;
+		priority_queue <int , vector<int> , greater<int>> minheap;
+		Max Priority queue (Or Max heap) ordered by first element
+
+	-> Sorted -> Binary Search
+
+	-> Choices + Decision = Recursion

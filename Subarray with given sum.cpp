@@ -1,4 +1,5 @@
-
+    //https://www.youtube.com/watch?v=Ofl4KgFhLsM
+    //O(N),O(1)
     vector<int> subarraySum(int arr[], int n, long long s)
     {
         int start = 0 , end = 1;

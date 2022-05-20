@@ -1,0 +1,18 @@
+brute force
+
+//algo - find the lh and the rh of each and every node n take the max one
+//TC O(N^2) -> O(N) * O(N)
+
+findMax(node)
+{
+	if(root==null)
+		return;
+
+	lh = findLeftH(node->left);
+	rh = findRightH(node->right);
+
+	maxi = max(maxi,lh+rh);
+
+	findMax(node->left);
+	findMax(node->right);
+}

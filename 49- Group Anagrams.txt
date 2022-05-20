@@ -1,4 +1,4 @@
-    // bf - O(n*klongk) where k is the max len of a string among the array, 
+    // bf - O(n*klogk) where k is the max len of a string among the array, 
     // SC - O(n*k)
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         unordered_map<string,vector<string> > mymap;

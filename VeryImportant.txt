@@ -17,3 +17,5 @@
 	-> Sorted -> Binary Search
 
 	-> Choices + Decision = Recursion
+
+	-> Divide by 2 : right shift

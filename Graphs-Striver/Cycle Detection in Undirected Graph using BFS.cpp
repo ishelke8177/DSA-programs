@@ -23,7 +23,7 @@ public:
                     visited[it] = true;
                     q.push({it, node});
                 }
-                // check if the visited node is parent/previous or not
+                // check if the visited node is parent or not
                 else if(par != it)
                     return true;
             }
